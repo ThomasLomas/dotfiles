@@ -21,8 +21,9 @@ NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'scrooloose/syntastic'
-NeoBundle 'Valloric/YouCompleteMe'
 NeoBundle 'vim-airline/vim-airline'
+NeoBundle 'vim-airline/vim-airline-themes'
+NeoBundle 'tomasr/molokai'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
@@ -40,6 +41,13 @@ NeoBundleCheck
 
 set nocompatible
 set nomodeline
+
+"Always show airline and enable fonts
+set laststatus=2
+let g:airline_powerline_fonts = 1
+
+" Theme
+colorscheme molokai
 
 syntax on
 set number
