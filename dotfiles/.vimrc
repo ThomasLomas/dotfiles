@@ -56,10 +56,13 @@ set ruler
 
 set tabstop=4
 set shiftwidth=4
-set hidden
+set softtabstop=4
+set expandtab
+set smarttab
+set autoindent
 filetype indent on
 filetype plugin on
-set autoindent
+set hidden
 
 set incsearch
 set ignorecase

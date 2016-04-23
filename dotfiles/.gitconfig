@@ -9,6 +9,6 @@
 [color]
     diff = auto
     status = auto
-	branch = auto
+    branch = auto
 [log]
-	decorate = true
+    decorate = true
