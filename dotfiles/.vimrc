@@ -51,7 +51,8 @@ colorscheme molokai
 
 syntax on
 set number
-set nowrap
+set wrap
+set linebreak
 set ruler
 
 set tabstop=4
