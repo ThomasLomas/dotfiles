@@ -1,0 +1,12 @@
+[user]
+    name = Thomas Lomas
+    email = tlomas@gmail.com
+[core]
+    editor = /usr/bin/vim
+    mergeoptions = 
+[push]
+    default = current
+[color]
+    diff = auto
+    status = auto
+    branch = auto
