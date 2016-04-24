@@ -24,6 +24,7 @@ NeoBundle 'scrooloose/syntastic'
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'tomasr/molokai'
+NeoBundle 'ntpeters/vim-better-whitespace'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
@@ -76,3 +77,6 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
+" Easy mode line numbers
+set relativenumber
+set number
