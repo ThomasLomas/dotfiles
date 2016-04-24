@@ -27,6 +27,7 @@ install_package "GNOME Vim" "vim-gnome"
 install_package "tmux" "tmux"
 install_package "VirtualBox" "virtualbox"
 install_package "Caffeine" "caffeine"
+install_package "Silversearcher" "silversearcher-ag"
 
 print_in_green "\n  ---\n\n"
 sudo add-apt-repository ppa:kilian/f.lux

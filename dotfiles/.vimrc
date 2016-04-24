@@ -25,6 +25,7 @@ NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'tomasr/molokai'
 NeoBundle 'ntpeters/vim-better-whitespace'
+NeoBundle 'rking/ag.vim'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
