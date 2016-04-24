@@ -70,3 +70,9 @@ set ignorecase
 set smartcase
 set hlsearch
 
+" Quit the habit
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
