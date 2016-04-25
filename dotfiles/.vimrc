@@ -26,6 +26,8 @@ NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'tomasr/molokai'
 NeoBundle 'ntpeters/vim-better-whitespace'
 NeoBundle 'rking/ag.vim'
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'moll/vim-node'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
@@ -81,3 +83,15 @@ noremap <Right> <NOP>
 " Easy mode line numbers
 set relativenumber
 set number
+
+" Auto close nerd tree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" Code folding
+set foldenable
+
+" Disable mouse
+set mouse=
+
+" Less lag
+set timeoutlen=500
